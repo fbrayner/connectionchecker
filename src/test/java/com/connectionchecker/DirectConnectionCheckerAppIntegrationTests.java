@@ -10,7 +10,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(webEnvironment = WebEnvironment.DEFINED_PORT, properties ={"datafile=./src/test/resources/data01.txt"})
+@SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT, properties ={"datafile=./src/test/resources/data01.txt"})
 public class DirectConnectionCheckerAppIntegrationTests {
 
 	@Test
